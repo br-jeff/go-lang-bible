@@ -1,4 +1,6 @@
-package ("fmt")
+package main
+
+import "fmt"
 /* 
 	&  bitwise AND
 	|  bitwise OR

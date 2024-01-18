@@ -1,4 +1,5 @@
 // Ftoc prints two fahrenheit to celsius convertsions
+package main
 
 func main() {
 	const freezingF, boilingF := 32.0, 212.0

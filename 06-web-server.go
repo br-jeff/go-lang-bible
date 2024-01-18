@@ -1,11 +1,13 @@
-package (
+package main
+
+import (
 	"fmt"
 	"log"
 	"net/http"
 )
 
 func main() {
-	http.HandlerFunc("/", handler) // each request calls handler
+	http.HandlerFunc("/", handler)                         // each request calls handler
 	log.Fatal(http.ListenAndServe("local-host:8000", nil)) // handler echoes the Path component of the request URL
 }
 
