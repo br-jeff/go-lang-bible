@@ -49,6 +49,6 @@ func main() {
 	}
 
 	if invalid > 0 {
-		fmt.Printf("\n invalid UTF-8 characters \n", invalid)
+		fmt.Printf("\n invalid UTF-8 characters %v \n", invalid)
 	}
 }
